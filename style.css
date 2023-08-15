@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1;
+    color: aliceblue;
+    background: rgb(1, 46, 46);
+}
+
+#flex{
+    width: 140px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    padding-bottom: 25px;
+    margin-left: 60px;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+ h1,h2{
+    margin: 60px;
+ }
+ ul{
+    list-style: none;
+ }
+ .container{
+    max-width: 1100%;
+    margin: 0 auto;
+    padding: 0 30px;
+ }
+ .navbar{
+    background:  rgb(1, 46, 46);
+    color: aliceblue;
+    height: 60px;
+ }
+ .navbar .logo{
+    font-size: x-large;
+    font-weight: normal;
+    margin-left: 60px;
+ }
+
+ .navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: lighter;
+    height: 100%;
+ }
+ .navbar a:hover{
+    color: red;
+ }
+
+ .navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+ }
+
+ .navbar ul{
+    display: flex;
+    padding-right: 60px;
+ }
+ .navbar ul li{
+    margin-left: 50px;
+
+ }
+ .header{
+    color: aliceblue;
+    min-height: 400px;
+ }
+ .header{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 0.1;
+ }
+ .header img{
+    max-width: 700px;
+ }
+ .header .container{
+    display: flex;
+    align-items: center;
+ }
+ #text{
+    line-height: 1;
+    margin-right: 500px;
+    margin-left: 60px;
+    font-size: x-small;
+    font-weight: lighter;
+    width: 30%;
+ }
+.boxes .container{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    color: black;
+    line-height: 2;
+}
+/* .btn {
+    padding: 13px 28px;
+    border-radius: 5px;
+    border: 1px solid white;
+  
+}
+.btn a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #03033720;
+    display: inline-block;
+} */
+#one{
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+#two{
+    padding-left: 50px; 
+}
+#three{
+    padding-left: 50px;
+}
+.header a{
+    color: black;
+    text-decoration: none;
+}
